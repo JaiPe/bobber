@@ -1,0 +1,14 @@
+{
+  "name": "bobber",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "screenshot-buffer": "https://github.com/RatherSlowTurtle/screenshot-buffer.git",
+    "hoggy": "https://github.com/RatherSlowTurtle/hoggy.git",
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
