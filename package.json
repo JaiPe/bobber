@@ -2,13 +2,20 @@
   "name": "bobber",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
-    "screenshot-buffer": "https://github.com/RatherSlowTurtle/screenshot-buffer.git",
     "hoggy": "https://github.com/RatherSlowTurtle/hoggy.git",
+    "screenshot-buffer": "https://github.com/RatherSlowTurtle/screenshot-buffer.git"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "fs": "^0.0.1-security",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "start": "yarn build && node .",
+    "build": "tsc"
+  },
   "author": "",
   "license": "ISC"
 }
