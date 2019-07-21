@@ -4,7 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "dependencies": {
+    "brain.js": "^1.6.1",
     "hoggy": "https://github.com/RatherSlowTurtle/hoggy.git",
+    "image-js": "^0.21.6",
+    "jimp": "^0.6.4",
     "screenshot-buffer": "https://github.com/RatherSlowTurtle/screenshot-buffer.git"
   },
   "devDependencies": {
@@ -14,6 +17,7 @@
   },
   "scripts": {
     "start": "yarn build && node .",
+    "debug": "yarn build && node --inspect-brk .",
     "build": "tsc"
   },
   "author": "",
